@@ -14,5 +14,7 @@ public class Client
 
         //Opening a spreadsheet file.
         chain.openDocument("xlsx");
+
+        //So by using this approach we can handle the chain of responsibility situations.
     }
 }

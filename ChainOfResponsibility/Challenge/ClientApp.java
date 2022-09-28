@@ -17,5 +17,6 @@ public class ClientApp
 
         //Handling Password authentication.
         chain.handleAuthentication("Password");
+
     }
 }
