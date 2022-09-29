@@ -5,6 +5,7 @@ public class SpreadSheetHandler extends DocumentHandler{
     public SpreadSheetHandler(DocumentHandler handler)
     {
         super(handler);
+        System.out.println("In the spreadsheet Constructor. ");
     }
 
     public void openDocument(String fileExtension)

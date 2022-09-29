@@ -5,6 +5,7 @@ public class SlideShowHandler extends DocumentHandler{
     public SlideShowHandler(DocumentHandler handler)
     {
         super(handler);
+        System.out.println("In the slideshow Constructor. ");
     }
 
     public void openDocument(String fileExtension)
